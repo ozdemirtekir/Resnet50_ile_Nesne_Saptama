@@ -28,7 +28,7 @@ def prepare_image(image,target):
 imageURL="https://i.ytimg.com/vi/0fEcYI4HeKA/maxresdefault.jpg"
 response=requests.get(imageURL)
 image=Image.open(BytesIO(response.content))
-image
+#image
 
 data = {"success":False}
 pre_image=prepare_image(image,target=(224,224)) #224x224 boyutlu hale getirir
