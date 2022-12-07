@@ -31,5 +31,6 @@ image=Image.open(BytesIO(response.content))
 image
 
 ![image](https://user-images.githubusercontent.com/120003620/206118655-45a25cc4-21da-48a1-8936-d8bbbbc0cc27.png)
+
 ![image](https://user-images.githubusercontent.com/120003620/206118946-1a7bcae8-a529-4dac-a8c6-f277a8ff6bc1.png)
 Sonuç olarak nesne %84 ihtimalle limuzin olarak saptanıyor
