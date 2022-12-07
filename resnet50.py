@@ -13,7 +13,6 @@ from keras.applications import imagenet_utils
 from PIL import Image
 import numpy as np
 from io import BytesIO
-import os
 import requests
 
 model=ResNet50(weights="imagenet")
